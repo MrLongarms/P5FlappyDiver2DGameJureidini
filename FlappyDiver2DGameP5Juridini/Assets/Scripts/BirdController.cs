@@ -28,4 +28,9 @@ public class BirdController : MonoBehaviour
             }
         }
     }
+
+    void OnCollisionEnter2D ()
+    {
+        isDead = true;
+    }
 }
