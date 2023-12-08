@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 715182416}
   - component: {fileID: 715182415}
   - component: {fileID: 715182414}
+  - component: {fileID: 715182417}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -338,6 +339,27 @@ Transform:
   - {fileID: 302597017}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &715182417
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715182413}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3c9d6cadfce5f143a970857528c371d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &828803722
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +373,7 @@ GameObject:
   - component: {fileID: 828803724}
   - component: {fileID: 828803723}
   - component: {fileID: 828803727}
+  - component: {fileID: 828803728}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -394,7 +417,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.13, y: 0.67}
+    oldSize: {x: 1.18, y: 0.67}
     newSize: {x: 1.13, y: 0.67}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -525,6 +548,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upForce: 200
+--- !u!95 &828803728
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828803722}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9960e785d62928040b8d12c679da30fd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1091974203
 GameObject:
   m_ObjectHideFlags: 0
