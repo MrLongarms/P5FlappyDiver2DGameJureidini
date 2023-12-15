@@ -1469,8 +1469,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   columnPoolSize: 5
-  columnPrefab: {fileID: 0}
+  columnPrefab: {fileID: 766855972319801332, guid: 90d614a4370f3cb408448ddfe1b1052c, type: 3}
   spawnRate: 4
+  columnMin: -2
+  columnMax: 2
 --- !u!1 &1701192496
 GameObject:
   m_ObjectHideFlags: 0
